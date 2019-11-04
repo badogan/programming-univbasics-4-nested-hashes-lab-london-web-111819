@@ -131,7 +131,7 @@ def adding_to_dennis
      }
   dennis_new_lang = "Assembly"
   dennis_current_lang = programmer_hash[:dennis_ritchie][:known_for].to_s
-  programmer_hash[:dennis_ritchie][:known_for] = [dennis_current_lang,dennis_new_lang]
+  programmer_hash[:dennis_ritchie][:known_for] = [dennis_new_lang,dennis_current_lang]
   puts programmer_hash
   return programmer_hash 
 end
